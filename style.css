@@ -5,7 +5,7 @@
   }
   body {
       display: grid;
-    
+    width: 100vw;
     height: 100vh; 
     
     grid-template-areas: 
@@ -18,7 +18,9 @@
 
 
   main {
-      display: block;      
+      display: block; 
+      text-align: center;     
+      
       grid-area: main;    
       align-items: center;
       margin: 15px 5px 15px 5px;
@@ -34,12 +36,13 @@
   #tribute-info{
       
       display: block;
-      align-self: center;   
-      text-align: center;  
+      text-align: center;   
+      
       
   }
   ul {
     max-width: 550px;
+    margin-left: 25vw;
     
   }
   li{
@@ -54,13 +57,15 @@
       text-align: center;
       
   }
-  section p {
+  blockquote {
     font-style: italic;
     font-weight: lighter;
+    margin-left: 35vw;
     
       
       width: 30%;
       text-align: center;
+      
 
   }
   figure{
@@ -68,6 +73,7 @@
     padding: 50px;
     background-color: white;
     text-align: center;
+    align-items: center;
   }
   img {
     display: block;
